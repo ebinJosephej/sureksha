@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard margins -->
+    <dimen name="gap_sm">8dp</dimen>
+    <dimen name="gap_md">10dp</dimen>
+    <dimen name="gap_mdlg">12dp</dimen>
+    <dimen name="gap_lg">14dp</dimen>
+    <dimen name="gap_lg_by_2">7dp</dimen>
+    <dimen name="gap_xl">18dp</dimen>
+    <dimen name="gap_vsm">16dp</dimen>
+    <dimen name="gap_xs">2dp</dimen>
+    <dimen name="gap_xxs">4dp</dimen>
+    <dimen name="gap_xxl">24dp</dimen>
+    <dimen name="gap_xxxl">44dp</dimen>
+    <dimen name="gap_line">22dp</dimen>
+    <!-- Standard Margins end -->
+
+    <!-- Font sizes -->
+    <dimen name="font_sm">10sp</dimen>
+    <dimen name="font_md">12sp</dimen>
+    <dimen name="font_lg">14sp</dimen>
+    <dimen name="font_mdlg">16sp</dimen>
+    <dimen name="font_xl">18sp</dimen>
+    <dimen name="font_xxl">22sp</dimen>
+    <dimen name="font_xxxl">24sp</dimen>
+    <!-- Font sizes ends -->
+
+    <!-- Image sizes -->
+    <dimen name="icon_xs">10dp</dimen>
+    <dimen name="icon_ssm">12dp</dimen>
+    <dimen name="icon_sm">16dp</dimen>
+    <dimen name="icon_md">18dp</dimen>
+    <dimen name="icon_lg">21dp</dimen>
+    <dimen name="icon_xl">24dp</dimen>
+    <dimen name="icon_xxl">34dp</dimen>
+
+    <dimen name="img_logo_main">56dp</dimen>
+    <!-- Image sizes end -->
+
+    <!-- Other layout sizes -->
+
+    <!-- Other layout sizes ends-->
+</resources>

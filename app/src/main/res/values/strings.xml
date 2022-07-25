@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Sureksha</string>
+    <string name="report_fire">Report Fire</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="new_user">New User</string>
+    <string name="please_enter_your_name">Your full name</string>
+    <string name="please_enter_your_email">Your email address</string>
+    <string name="please_enter_your_address">Your residential address</string>
+    <string name="please_enter_your_password">Type a strong password</string>
+    <string name="please_enter_your_password_confirm">Confirm your password</string>
+    <string name="register_user">Register User</string>
+    <string name="are_you_an_existing_user_login">Are you an existing user? Login</string>
+    <string name="login_user">User Login</string>
+    <string name="new_user_login">Are you a new user? Register here</string>
+    <string name="login_as_user">Login</string>
 </resources>

@@ -7,4 +7,42 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="PrimaryButton">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/font_lg</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">@dimen/gap_xl</item>
+        <item name="android:paddingEnd">@dimen/gap_xl</item>
+        <item name="android:paddingTop">@dimen/gap_sm</item>
+        <item name="android:paddingBottom">@dimen/gap_sm</item>
+    </style>
+
+    <style name="PrimaryButton.Positive">
+        <item name="android:textColor">@color/colorTextWhitePrimary</item>
+        <item name="android:background">@drawable/button_bg</item>
+    </style>
+
+    <style name="PrimaryButton.Black">
+        <item name="android:textColor">@color/colorTextWhitePrimary</item>
+        <item name="android:background">@drawable/button_bg_black</item>
+    </style>
+
+    <style name="EditTextField">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/font_lg</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">@dimen/gap_xl</item>
+        <item name="android:paddingEnd">@dimen/gap_xl</item>
+        <item name="android:paddingTop">@dimen/gap_sm</item>
+        <item name="android:paddingBottom">@dimen/gap_sm</item>
+        <item name="background">@drawable/edit_text_bg</item>
+    </style>
+
 </resources>
