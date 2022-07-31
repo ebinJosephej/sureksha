@@ -13,4 +13,37 @@
     <string name="login_user">User Login</string>
     <string name="new_user_login">Are you a new user? Register here</string>
     <string name="login_as_user">Login</string>
+    <string name="fire_tips">Fire Tips</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="extinguishers">Extinguishers</string>
+    <string name="banner_image">Banner image</string>
+
+    <!-- Fire tips -->
+    <string name="fire_tip_title_1">Class A</string>
+    <string name="fire_tip_description_1">A class A fire is burning flammable solids as fuel. Examples of these include paper and wood.</string>
+    <string name="fire_tip_extinguishers_1">Water, Foam, ABC Dry powder, Wet chemical</string>
+    <string name="fire_tip_title_2">Class B</string>
+    <string name="fire_tip_description_2">Class B fires are burning flammable liquids. Examples include petrol and paint.</string>
+    <string name="fire_tip_extinguishers_2">Foam, CO2 Gas, ABC Dry powder</string>
+    <string name="fire_tip_title_3">Class C</string>
+    <string name="fire_tip_description_3">Class C fires burn flammable gases. A couple of examples are propane and butane.</string>
+    <string name="fire_tip_extinguishers_3">ABC Dry powder</string>
+    <string name="fire_tip_title_4">Class D</string>
+    <string name="fire_tip_description_4">Class D fires are burning flammable metals. These may include lithium or magnesium.</string>
+    <string name="fire_tip_extinguishers_4">Dry Special Powder</string>
+    <string name="fire_tip_title_5">Class E</string>
+    <string name="fire_tip_description_5">Any fire involving electrical equipment is classed as an electrical fire.</string>
+    <string name="fire_tip_extinguishers_5">CO2 Gas, ABC Dry powder</string>
+    <string name="fire_tip_title_6">Class F</string>
+    <string name="fire_tip_description_6">Class F fires are burning cooking oils or fat.</string>
+    <string name="fire_tip_extinguishers_6">Wet chemical</string>
+
+    <!-- Errors -->
+    <string name="error_missing_values">This field is required</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_incorrect_credentials">Email or password is incorrect. If you are new user, please register</string>
+    <string name="error_unexpected">Something went wrong. Please try again later.</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_email_exists">Already registered!</string>
 </resources>

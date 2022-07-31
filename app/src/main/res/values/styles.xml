@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -43,6 +43,145 @@
         <item name="android:paddingTop">@dimen/gap_sm</item>
         <item name="android:paddingBottom">@dimen/gap_sm</item>
         <item name="background">@drawable/edit_text_bg</item>
+    </style>
+
+    <style name="textStyleDescription">
+        <item name="android:textSize">@dimen/font_md</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorTextBlackSecondary</item>
+        <item name="android:justificationMode" tools:ignore="NewApi">inter_word</item>
+    </style>
+
+    <style name="textStyleMediumBold">
+        <item name="android:textSize">@dimen/font_md</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+    </style>
+
+    <style name="textStyleSubMedium">
+        <item name="android:textSize">@dimen/font_md</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorTextBlackSecondary</item>
+    </style>
+
+    <style name="textStyleMedium">
+        <item name="android:textSize">@dimen/font_md</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+    </style>
+
+    <style name="textStyleNormalBold">
+        <item name="android:textSize">@dimen/font_lg</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+    </style>
+
+    <style name="textStyleNormalWhiteBold">
+        <item name="android:textSize">@dimen/font_lg</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextWhitePrimary</item>
+    </style>
+
+    <style name="textStyleNormal">
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_lg</item>
+    </style>
+
+    <style name="textStyleNormalWhite">
+        <item name="android:textColor">@color/colorTextWhitePrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_lg</item>
+    </style>
+
+    <style name="textStyleNormalWhiteMega">
+        <item name="android:textColor">@color/colorTextWhitePrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_xxxl</item>
+    </style>
+
+    <style name="textStyleSmall">
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_sm</item>
+    </style>
+
+    <style name="textStyleSmallSub">
+        <item name="android:textColor">@color/colorTextBlackSecondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_sm</item>
+    </style>
+
+    <style name="textStyleSmallBold">
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_sm</item>
+    </style>
+
+    <style name="textStyleSmallWhite">
+        <item name="android:textColor">@color/colorTextWhitePrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_sm</item>
+    </style>
+
+    <style name="textStyleMediumWhite">
+        <item name="android:textColor">@color/colorTextWhitePrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_md</item>
+    </style>
+
+    <style name="textStyleSubText">
+        <item name="android:textColor">@color/colorTextBlackSecondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_lg</item>
+    </style>
+
+    <style name="textStyleSubTextBold">
+        <item name="android:textColor">@color/colorTextBlackSecondary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_lg</item>
+    </style>
+
+    <style name="textStyleSubTextSmall">
+        <item name="android:textColor">@color/colorTextBlackSecondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_md</item>
+    </style>
+
+    <style name="textStyleSubTextWhiteSmall">
+        <item name="android:textColor">@color/colorTextWhiteSecondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_md</item>
+    </style>
+
+    <style name="textStyleSubTitleBold">
+        <item name="android:textColor">@color/colorTextBlackSecondary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_xl</item>
+    </style>
+
+    <style name="textStyleTitleWhiteBold">
+        <item name="android:textColor">@color/colorTextWhitePrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_xl</item>
+    </style>
+
+    <style name="textStyleTitleBlackBold">
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_xl</item>
+    </style>
+
+    <style name="textStyleTitleBlack">
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_xl</item>
+    </style>
+
+    <style name="textStyleTitleWhite">
+        <item name="android:textColor">@color/colorTextWhitePrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_xl</item>
     </style>
 
 </resources>

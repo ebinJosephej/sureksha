@@ -35,6 +35,7 @@
     <dimen name="icon_xxl">34dp</dimen>
 
     <dimen name="img_logo_main">56dp</dimen>
+    <dimen name="img_banner">250dp</dimen>
     <!-- Image sizes end -->
 
     <!-- Other layout sizes -->
